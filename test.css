@@ -1,0 +1,142 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-image: url(natrual.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 99.4%;
+    height: 91vh;
+    margin-top: 40px;
+}
+
+
+.container {
+    border: 1px solid #625729;
+    box-shadow: 0 0 10px rgb(85, 76, 76);
+    width: 300px;
+    height: 67vh;
+    color: rgb(44, 33, 33);
+    border-radius: 20px;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+    margin-top: 75px;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-bottom: 13px;
+    font-size: 40px;
+    color: #00ff6c;
+}
+
+
+.action input {
+    margin: 10px;
+    display: flex;
+    border: 1px solid rgba(59, 49, 49, 0.22);
+    cursor: pointer;
+}
+
+.action input {
+    width: 80%;
+    height: 8px;
+    border: 1px #040505;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(38, 34, 33);
+    padding: 18px;
+    margin: 20px;
+}
+
+
+
+
+.action input i {
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+label {
+    font-size: 20px;
+    margin: 10px;
+    color: aqua;
+    font-weight: 500;
+}
+
+
+button {
+    background-color: burlywood;
+    border: 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 38%;
+    height: 37px;
+    margin: auto;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.pics img {
+    width: 25px;
+    display: flex;
+}
+
+/* responsive */
+/*Small*/
+@media screen and (max-width: 500px) {
+
+    body {
+        width: 98%
+    }
+
+    .container {
+        width: 70%;
+        height: 96vh;
+        margin-top: -32px;
+    }
+}
+
+/*Medium*/
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    body {
+        height: 94.3vh;
+    }
+
+    .container {
+        width: 74%;
+        height: 71vh;
+        margin-top: 62px;
+        margin-right: 7px;
+    }
+}
+
+
+
+/*tabs and ipads*/
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+    body {
+        width: 95%
+    }
+
+    .container {
+        width: 60%;
+        height: 45vh;
+        margin-top: 14em;
+    }
+}
